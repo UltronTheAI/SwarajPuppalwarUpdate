@@ -1,0 +1,407 @@
+*
+{
+    /* margin: 0; */
+    /* padding: 0; */
+}
+.th a
+{
+    text-decoration: none;
+    color: #494;
+}
+body
+{
+    background: #333;
+    overflow-x: hidden;
+    height: 100%;
+    height: 100%;
+}
+::-webkit-scrollbar
+{
+    background: transparent;
+}
+::-webkit-scrollbar-corner
+{
+    background: transparent;
+}
+.nav
+{
+    width: 100%;
+    height: 100%;
+}
+.nav h1
+{
+    color: rgba(255, 255, 255, 0.342);
+    z-index: 10000;
+    mix-blend-mode: overlay;
+    transform: translateY(-800px);
+    font-size: 10ex;
+    text-align: center;
+}
+.nav a
+{
+    float: right;
+    margin-left: 100px;
+    transform: translateY(-1150px);
+    text-decoration: none;
+    transition: 1.8s;
+    color: rgba(169, 224, 20, 0.527);
+}
+.nav a:nth-child(5)
+{
+    color: rgba(226, 179, 23, 0.623);
+}
+.nav a:hover
+{
+   color: rgba(226, 179, 23, 0.623);
+}
+.nav p
+{
+    position: relative;
+    text-align: center;
+    font-size: 3ex;
+    color: #fff;
+    z-index: 10000;
+    mix-blend-mode: overlay;
+    transform: translateY(-800px) translateX(250px);
+}
+.nav h1
+{
+
+}
+.nav video
+{
+    transform: translateY(-150px);
+    z-index: 10000000000000000000000000000;
+    mix-blend-mode: overlay;
+}
+.d2
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  padding: 0;
+}
+.d2 h1
+{
+    text-align: center;
+    transform: translateY(-350px);
+    font-size: 7ex;
+    color: #444;
+    filter: blur(2px);
+    margin: 0;
+  padding: 0;
+}
+.d2 p
+{
+    text-align: center;
+    transform: translateY(-350px);
+    font-size: 3ex;
+    color: #444;
+    margin: 0;
+  padding: 0;
+}
+.th
+{
+    width: 100%;
+    height: 100%;
+    background: #222;
+    border-radius: 50px;
+    margin: 0;
+  padding: 0;
+}
+.th h1
+{
+  text-align: center;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+.th video
+{
+    width: 100%;
+    height: 100%;
+}
+@media only screen and (min-width : 280px)
+{
+    .nav p
+    {
+        transform: translateY(-800px) translateX(0);
+        text-align: center;
+        padding-left: 10px;
+        font-size: 2.5ex;
+    }
+    .nav h1
+    {
+        font-size: 6ex;
+    }
+    .nav a
+    {
+        margin-left: 40px;
+        display: inline;
+    }
+    .th
+    {
+        height: 800px;
+        width: 120%;
+        /* display: none; */
+        /* border-radius: 500px; */
+        /* transform: translateY(-300px); */
+        /* padding-bottom: 50px; */
+    }
+    .th p
+    {
+         text-align: center;
+         width: 80%;
+         color: #333;
+         font-size: 2.5ex;
+    }
+    .th video
+    {
+        height: 100%;
+        /* padding-top: 100px; */
+        border-radius: 500px;
+        transform: translateY(-160px);
+    }
+    .th a
+    {
+        text-align: center;
+        font-size: 2.5ex;
+        width: 100%;
+        height: 100%;
+        margin-left: 130px;
+        /* transform: translateY(100px); */
+    }
+    .th video
+{
+    width: 100%;
+    border-radius: 50px;
+    display: none;
+}
+.th p
+{
+  /* display: none; */
+}
+.th a
+{
+    
+}
+}
+@media only screen and (min-width : 411px)
+{
+    body
+    {
+        /* height: 300px; */
+    }
+    .th
+    {
+   height: 1200px;
+    }
+}
+@media only screen and (min-width : 760px)
+{
+    .nav a
+    {
+        margin-right: 100px;
+        position: relative;
+        right: 200px;
+    }
+    .nav h1
+    {
+        font-size: 5ex;
+        position: relative;
+        left: -100px;
+    }
+    .d2
+    {
+       width: 60%;
+       transform: translateY(100px);
+    }
+    /* .th */
+    /* { */
+        /* display: block; */
+        /* width: 63%; */
+        /* height: 100px; */
+    /* } */
+    .th
+{
+    width: 75%;
+    /* height: 2000px; */
+    /* display: block; */
+    background: #222;
+    border-radius: 50px;
+    /* margin: 0; */
+  /* padding: 0; */
+}
+.th h1
+{
+  text-align: center;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+    .th video
+{
+    width: 100%;
+    border-radius: 50px;
+    display: none;
+}
+.th
+{
+    height: 100%;
+}
+.th p
+{
+  /* display: none; */
+}
+.th a
+{
+    display: none;
+}
+}
+@media only screen and (min-width : 1024px)
+{
+    .th
+    {
+        width: 55%;
+        height: 1100px;
+    }
+}
+@media only screen and (min-width : 1200px)
+{
+        .nav p
+        {
+            left: 300px;
+        }
+        .d2 h1
+        {
+            position: relative;
+            left: 300px;
+        }
+        .d2 p
+        {
+            position: relative;
+            left: 300px;
+        }
+        .th
+        {
+            width: 100%;
+            height: 100%;
+        }
+        .th p
+        {
+            display: none;
+        }
+}
+@media only screen and (min-width : 1600px)
+{
+    body
+{
+    background: #333;
+    overflow-x: hidden;
+    height: 100%;
+    height: 100%;
+}
+::-webkit-scrollbar
+{
+    background: transparent;
+}
+::-webkit-scrollbar-corner
+{
+    background: transparent;
+}
+.d2 h1
+{
+left: 0;
+}
+.d2 p
+{
+    left: 0;
+}
+.nav
+{
+    width: 100%;
+    height: 100%;
+}
+.nav h1
+{
+    color: rgba(255, 255, 255, 0.342);
+    z-index: 10000;
+    mix-blend-mode: overlay;
+    transform: translateY(-800px);
+    font-size: 10ex;
+    text-align: center;
+}
+.nav a
+{
+    float: right;
+    margin-left: 100px;
+    transform: translateY(-1150px);
+    text-decoration: none;
+    transition: 1.8s;
+    color: rgba(169, 224, 20, 0.527);
+    display: inline;
+}
+.nav a:nth-child(5)
+{
+    color: rgba(226, 179, 23, 0.623);
+}
+.nav a:hover
+{
+   color: rgba(226, 179, 23, 0.623);
+}
+.nav p
+{
+    position: relative;
+    text-align: center;
+    font-size: 3ex;
+    color: #fff;
+    z-index: 10000;
+    mix-blend-mode: overlay;
+    transform: translateY(-800px) translateX(250px);
+}
+.nav h1
+{
+
+}
+.nav video
+{
+    transform: translateY(-150px);
+    z-index: 10000000000000000000000000000;
+    mix-blend-mode: overlay;
+}
+.d2
+{
+    width: 100%;
+    height: 100%;
+}
+.d2 h1
+{
+    text-align: center;
+    transform: translateY(-350px);
+    font-size: 7ex;
+    color: #444;
+    filter: blur(2px);
+}
+.d2 p
+{
+    text-align: center;
+    transform: translateY(-350px);
+    font-size: 3ex;
+    color: #444;
+}
+.th
+{
+    width: 100%;
+    height: 50px;
+}
+.th video
+{
+    width: 100%;
+    border-radius: 50px;
+    display: none;
+}
+.th p
+{
+  display: none;
+}
+}
