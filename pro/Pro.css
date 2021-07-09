@@ -1,0 +1,445 @@
+body
+{
+    background: #333;
+    overflow-x: hidden;
+    height: 100%;
+    height: 100%;
+}
+::-webkit-scrollbar
+{
+    background: transparent;
+}
+::-webkit-scrollbar-corner
+{
+    background: transparent;
+}
+.nav
+{
+    width: 100%;
+    height: 100%;
+}
+.nav h1
+{
+    color: rgba(255, 255, 255, 0.342);
+    z-index: 10000;
+    mix-blend-mode: overlay;
+    transform: translateY(-800px);
+    font-size: 10ex;
+    text-align: center;
+}
+.nav a
+{
+   float: right;
+    margin-left: 100px;
+    transform: translateY(-1150px);
+    text-decoration: none;
+    transition: 1.8s;
+    color: rgba(169, 224, 20, 0.527);
+}
+.nav a:nth-child(5)
+{
+    color: rgba(226, 179, 23, 0.623);
+}
+.nav a:hover
+{
+   color: rgba(226, 179, 23, 0.623);
+}
+.nav p
+{
+    position: relative;
+    text-align: center;
+    font-size: 3ex;
+    color: #fff;
+    z-index: 10000;
+    mix-blend-mode: overlay;
+    transform: translateY(-800px) translateX(250px);
+}
+.nav h1
+{
+
+}
+.nav video
+{
+    transform: translateY(-150px);
+    z-index: 10000000000000000000000000000;
+    mix-blend-mode: overlay;
+}
+.d2
+{
+    width: 100%;
+    height: 100vh;
+    /* background: #fff; */
+    transform: translateY(-370px);
+    /* display: inline; */
+}
+.d2 .c1
+{
+    width: 50%;
+    height: 100%;
+    /* background: red; */
+}
+.d2 .c2
+{
+    width: 50%;
+    height: 100%;
+    /* background: blue; */
+    transform: translateY(-970px) translateX(950px);
+}
+.d2 .c1 h1
+{
+    color: #444;
+    font-size: 7ex;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 6px;
+}
+.d2 .c1 p
+{
+    color: #444;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.learn
+{
+    width: 100%;
+    height: 30vh;
+    border-top: 1px solid #444;
+    border-bottom: 1px solid #444;
+}
+.learn h1
+{
+    color: #444;
+    text-align: center;
+}
+.learn h2
+{
+    color: #444;
+    text-align: center;
+}
+.learn p
+{
+    color: #444;
+    text-align: center;
+}
+.learn a
+{
+    color: rgba(255, 255, 255, 0.37);
+    text-decoration: none;
+    margin: 100px 100px 200px 100px;
+}
+.py
+{
+    border-top: 1px solid #444;
+}
+.py h1
+{
+    color: #444;
+    text-align: center;
+}
+.py p
+{
+    color: #444;
+    text-align: center;
+}
+.py a
+{
+    margin-left: 900px;
+    color: rgba(255, 255, 255, 0.37);
+    text-decoration: none;
+    /* margin: 100px 100px 200px 100px; */
+}
+@media only screen and (min-width : 280px)
+{
+    .nav p
+    {
+        left: -250px;
+    }
+    .nav a
+    {
+        margin-left: 50px;
+    }
+    .d2 .c1
+    {
+        width: 100%;
+    }
+    .d2 .c2
+    {
+        transform: translateY(620px);
+        width: 100%;
+        /* height: 100vh; */
+    }
+    .i9
+    {
+        transform: translateX(-200px);
+        /* width: 100px; */
+    }
+    #le1
+    {
+        transform: translateY(2250px);
+        height: 100%;
+    }
+    #le2
+    {
+        transform: translateY(2250px);
+        height: 100%;
+    }
+    #le3
+    {
+        transform: translateY(2250px);
+        height: 100%;
+    }
+    .py
+    {
+        transform: translateY(2250px);
+    }
+}
+@media only screen and (min-width : 768px)
+{
+    .nav a
+    {
+        margin-right: 60px;
+        left: -200px;
+        position: relative;
+    }
+    .d2 .c1
+    {
+        width: 75%;
+    }
+    .d2 .c2
+    {
+        width: 75%;
+    }
+    .learn
+    {
+        width: 75%;
+    }
+    .py
+    {
+        width: 75%;
+    }
+}
+@media only screen and (min-width : 1024px)
+{
+    .nav a
+    {
+        left: -500px;
+    }
+    .nav h1
+    {
+        position: relative;
+      left: -200px;
+      width: 100%;
+    }
+    .d2 .c1
+    {
+        width: 50%;
+    }
+    .d2 .c2
+    {
+        width: 50%;
+    }
+    .learn
+    {
+        width: 50%;
+    }
+    .py
+    {
+        width: 50%;
+    }
+}
+@media only screen and (min-width : 1200px)
+{
+    .d2 .c2
+    {
+        transform: translateY(-600px) translateX(800px);
+    }
+       .learn
+       {
+           width: 100%;
+       }
+       .py
+       {
+           width: 100%;
+       }
+}
+@media only screen and (min-width : 1600px)
+{
+    body
+{
+    background: #333;
+    overflow-x: hidden;
+    height: 100%;
+    height: 100%;
+}
+::-webkit-scrollbar
+{
+    background: transparent;
+}
+::-webkit-scrollbar-corner
+{
+    background: transparent;
+}
+.nav
+{
+    width: 100%;
+    height: 100%;
+}
+.nav h1
+{
+    color: rgba(255, 255, 255, 0.342);
+    z-index: 10000;
+    mix-blend-mode: overlay;
+    transform: translateY(-800px);
+    font-size: 10ex;
+    text-align: center;
+    left: 0;
+}
+.nav a
+{
+   float: right;
+    margin-left: 100px;
+    transform: translateY(-1150px);
+    text-decoration: none;
+    transition: 1.8s;
+    color: rgba(169, 224, 20, 0.527);
+    left: 0;
+}
+.nav a:nth-child(5)
+{
+    color: rgba(226, 179, 23, 0.623);
+}
+.nav a:hover
+{
+   color: rgba(226, 179, 23, 0.623);
+}
+.nav p
+{
+    position: relative;
+    text-align: center;
+    font-size: 3ex;
+    color: #fff;
+    z-index: 10000;
+    mix-blend-mode: overlay;
+    transform: translateY(-800px) translateX(250px);
+    left: 0;
+}
+.nav h1
+{
+
+}
+.nav video
+{
+    transform: translateY(-150px);
+    z-index: 10000000000000000000000000000;
+    mix-blend-mode: overlay;
+}
+.d2
+{
+    width: 100%;
+    height: 100vh;
+    /* background: #fff; */
+    transform: translateY(-370px);
+    /* display: inline; */
+}
+.d2 .c1
+{
+    width: 50%;
+    height: 100%;
+    /* background: red; */
+}
+.d2 .c2
+{
+    width: 50%;
+    height: 100%;
+    /* background: blue; */
+    transform: translateY(-970px) translateX(950px);
+}
+.d2 .c1 h1
+{
+    color: #444;
+    font-size: 7ex;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 6px;
+}
+.d2 .c1 p
+{
+    color: #444;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.learn
+{
+    width: 100%;
+    height: 30vh;
+    border-top: 1px solid #444;
+    border-bottom: 1px solid #444;
+}
+.learn h1
+{
+    color: #444;
+    text-align: center;
+}
+.learn h2
+{
+    color: #444;
+    text-align: center;
+}
+.learn p
+{
+    color: #444;
+    text-align: center;
+}
+.learn a
+{
+    color: rgba(255, 255, 255, 0.37);
+    text-decoration: none;
+    margin: 100px 100px 200px 100px;
+}
+.py
+{
+    border-top: 1px solid #444;
+}
+.py h1
+{
+    color: #444;
+    text-align: center;
+}
+.py p
+{
+    color: #444;
+    text-align: center;
+}
+.py a
+{
+    margin-left: 900px;
+    color: rgba(255, 255, 255, 0.37);
+    text-decoration: none;
+    /* margin: 100px 100px 200px 100px; */
+}
+#le1
+{
+   height: 30%; 
+   transform: translateY(0);
+}
+#le2
+{
+   height: 30%; 
+   transform: translateY(0);
+}
+#le3
+{
+   height: 30%; 
+   transform: translateY(0);
+}
+.py
+{
+    transform: translateY(0);
+    /* height: 10px; */
+    width: 100%;
+}
+}
