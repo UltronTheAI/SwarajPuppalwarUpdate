@@ -2,3 +2,41 @@
 In This Site You Can Learn To Code And Info About Me.
 
 Web Link : https://ultrontheai.github.io/SwarajPuppalwarUpdate/
+
+<div class="nav">
+        <video src="./s.mp4" muted loop autoplay></video>
+        <h1>SWARAJ PUPPALWAR</h1>
+        <a href="./contact.html">Contact</a>
+        <a href="./pro">Projects</a>
+        <a href="main.html">Home</a>
+        <p>Thi's Is My Website For My Info And My Work.</p>
+    </div>
+    <div class="d2">
+        <h1>
+            INFO
+        </h1>
+        <p>Swaraj Puppalwar<br>
+            UltronTheAI<br>
+            Hello Dear, My Name Is Swaraj Puppalwar. And I Am 13 Years Old Computer Programmer+ Full stack Web Developer+I am A
+            Python dev. <br>I Know 8 Programming Languages My Github Profile Link Is In Contact Page, If You Want To Work With Me<br>Join My Github Profile For More Info About Me Go On About Page. </p>    
+    </div>
+    <!-- <div class="end">
+        <p>
+            Thi's Web Is My 10Th Ml Website My YouThub Chanel Link Is <br>https://youtu.be/-5XgJT13cfQ<br>All Pages.
+        </p>
+    </div> -->
+    <!-- <link rel="stylesheet" href="main.css"> -->
+    <div class="th">
+        <h1>
+            Home
+        </h1>
+        <p>
+            This Is Home Page. It Containt<br>Web Site Info, My Info<br>Pls Join My Github<br> Profile.<br>UltronTheAI<br>
+            Hello Dear, My Name Is Swaraj Puppalwar. And I Am 13 Years Old Computer Programmer+ Full stack Web Developer+I am A
+            Python dev. <br>I Know 8 Programming Languages My Github Profile Link Is In Contact Page, If You Want To Work With
+            Me<br>Join My Github Profile For More Info Contact Me Go On Contact Page.
+            <br>I Know Python, Html, Css, Js, C#, C, C++, Java<br> If You Want This Code, Img, Sounds Go On https://github.com/UltronTheAi/Pyredata/<br> My Github Profile Link https://github.com/UltronTheAI/<br> Website Made By Html, Css, Js, App Made By Python, Pyinstaller, Google Colab<br>And I Use Ide To Code Is Vscode, Intelej Ide.<br><br><br><br>Thank You For Comming.
+        </p>
+        <a href="../s.mp4">Download</a>
+        <video src="../s.mp4" muted loop autoplay></video>
+    </div>
